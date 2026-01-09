@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My First Webpage</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets\style.css">
 </head>
 <body>
     <header>  
@@ -20,19 +20,33 @@
     <main>  
         <section id="about-me">
             <h2>About Me</h2>
-            <p>Hello! My name is Blaize Kenny. I am a web developer with a passion for creating beautiful and functional websites. In my free time, I enjoy hiking, photography, and learning new programming languages.</p>
+            <img src="assets\aboutmephoto.jpg" alt="Blaize Kenny" width="300">
+            <p>Hello! My name is Blaize Kenny. I am a web developer with a passion for creating beautiful and functional websites. In my free time, I enjoy crossfit, playing the pokemon trading card game, and learning new programming languages.</p>
         </section>
         <section id="projects">
             <h2>Projects</h2>
             <ul>
-                <li><strong>Portfolio Website:</strong> A personal website showcasing my projects and skills.</li>
                 <li><strong>Blog Platform:</strong> A simple blogging platform built with HTML, CSS, and JavaScript.</li>
                 <li><strong>E-commerce Site:</strong> An online store prototype with product listings and a shopping cart feature.</li>
             </ul>
         </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>If you'd like to get in touch, feel free to email me at <a href="mailto:blaizekenny@example.com">blaizekenny@example.com</a>.</p>
+        <section id="contact-details">
+            <h2>Contact details</h2>
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required placeholder="Example: Blaize Kenny"><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required placeholder="blaizekenny@example.com"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <div class="contact-info">
+                <h4>Contact me directly</h4>
+                <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+                <p>Phone: <a href="tel:+44234567890">+44 234 567 890</a></p>
+            </div>
+
         </section>
     </main>
     <footer>

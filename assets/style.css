@@ -1,0 +1,11 @@
+body {
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #ccea0a;
+   
+}
+
+nav {
+    display: inline;
+}
