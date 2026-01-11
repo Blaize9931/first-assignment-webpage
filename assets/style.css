@@ -2,8 +2,22 @@ body {
 
     font-family: monospace;
     font-weight: normal;
-    background-color: #ccea0a;
+    background-color: #AAAAAA;
     font-size: 16px;
-    
+    text-align: center;
+
+}
+
+img {
+
+    display: inline-block;
+    width: 400px
+
+}
+
+.nav:hover {
+
+    background-color: #999999;
+
 }
 
