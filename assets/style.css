@@ -7,8 +7,7 @@ body {
     text-align: center;
 
 }
-
-img {
+#about-me img {
 
     display: inline-block;
     width: 400px
@@ -21,18 +20,36 @@ img {
 
 }
 
-.projects{
-
+.project-images img {
     display: inline-block;
-    vertical-align: middle;
+    width: 40%;
+    
+}
+.project-img-1 {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    float: left;
+    margin: 0px 0px 0px 35px
+}
+.project-img-2 {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+    float: left;
+    margin: 0px 0px 0px 10px
+    
+    
 }
 
-.projects img{
-
-    width: 200px;
-    margin: 20px;
-
+.contact-form {
+    display: inline-block;
+    text-align: center;
+    margin-right: 50px;
 }
+
+
+
 
 
 
