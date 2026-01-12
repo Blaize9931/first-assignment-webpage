@@ -21,3 +21,19 @@ img {
 
 }
 
+.projects{
+
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.projects img{
+
+    width: 200px;
+    margin: 20px;
+
+}
+
+
+
+
