@@ -1,52 +1,102 @@
 body {
-
     font-family: monospace;
     font-weight: normal;
     background-color: #AAAAAA;
     font-size: 16px;
     text-align: center;
-
+    width: 100%;
 }
+
 #about-me img {
-
     display: inline-block;
-    width: 400px
-
+    width: 50%;
+    height: 40%;
 }
 
 .nav:hover {
-
     background-color: #999999;
-
 }
 
 .project-images img {
     display: inline-block;
     width: 40%;
-    
-}
-.project-img-1 {
-    display: inline-block;
-    width: 40%;
-    text-align: left;
-    float: left;
-    margin: 0px 0px 0px 35px
-}
-.project-img-2 {
-    display: inline-block;
-    width: 40%;
-    text-align: right;
-    float: left;
-    margin: 0px 0px 0px 10px
-    
-    
 }
 
-.contact-form {
+.project-des-1,
+.project-des-2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    box-sizing: border-box;
+    font-size: 16px; 
+}
+
+.project-des-1 p {
+    text-align: left;
+    margin: 0;
+}
+
+.project-des-2 p {
+    text-align: right;
+    margin: 0;
+} 
+
+#contact-form {
     display: inline-block;
     text-align: center;
     margin-right: 50px;
 }
+
+
+
+nav {
+    width: 100%;
+    position: sticky;
+    background-color: #777777;
+    top: 0px;
+}
+
+.nav {
+    display: inline;
+    vertical-align: middle;
+    margin: 0px;
+}
+
+.name {
+    font-size: 40px;
+    margin-bottom: 5px;
+    
+    background-color: #888888;
+}
+
+#header {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.project-descriptions {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center; 
+    font-size: 0; 
+}
+
+@media (max-width: 600px) {
+    .project-descriptions {
+        font-size: 16px;
+        text-align: left;
+        width: 95%;
+    }
+    .project-des-1,
+    .project-des-2 {
+        display: block;
+        width: 100%;
+    }
+    .project-des-2 p {
+        text-align: left; 
+    }
+}
+
 
 
 

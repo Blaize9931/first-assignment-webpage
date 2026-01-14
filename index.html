@@ -1,71 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My First Webpage</title>
-    <link rel="stylesheet" href="assets\style.css">
-</head>
-<body>
-    <header>  
-        <h1>Blaize Kenny</h1>
-        <nav>
-            <ul>
-                <li class="nav"><a href="#about-me">About Me</a></li>
-                <li class="nav"><a href="#projects">Projects</a></li>
-                <li class="nav"><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>  
-        <section id="about-me">
-            <h2>About Me</h2>
-            <img src="assets\aboutmephoto.jpg" alt="Picture of Blaize Kenny" width="300">
-            <p>Hello! My name is Blaize Kenny. I am a web developer with a passion for creating beautiful and functional websites. In my free time, I enjoy crossfit, playing the pokemon trading card game, and learning new programming languages.</p>
-        </section>
-        <section id="projects">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My First Webpage</title>
+        <link rel="stylesheet" href="assets\style.css">
+    </head>
 
+    <body>
+
+        <header id="header">
+        <div class="header-content">
+                <h1 class="name">Blaize Kenny</h1>
+                <nav>
+                    <ul>
+                        <li class="nav"><a href="#about-me">About Me</a></li>
+                        <li class="nav"><a href="#projects">Projects</a></li>
+                        <li class="nav"><a href="#contact-details">Contact</a></li>
+                    </ul>
+                </nav>
+        </div>
+        </header>
+            
+        <main>
+
+            <section id="about-me">
+                <h2>About Me</h2>
+                <img src="assets\aboutmephoto.jpg" alt="Picture of Blaize Kenny" width="300">
+                <p>Hello! My name is Blaize Kenny. I am a web developer with a passion for creating beautiful and functional websites. In my free time, I enjoy crossfit, playing the pokemon trading card game, and learning new programming languages.</p>
+            </section>
+
+            <section id="projects">    
             <h2>Projects</h2>
-
-           <div class="project-images"> 
-               <img src="assets\rock-paper-scissor.png" alt="Rock Paper Scissors Game Screenshot">
-               <img src="assets\team-stats.png" alt="Team Stats App Screenshot">
-           </div>
-           <div class="project-descriptions">
-
+            <div class="project-images"> 
+                <img src="assets\rock-paper-scissor.png" alt="Rock Paper Scissors Game Screenshot">
+                <img src="assets\team-stats.png" alt="Team Stats App Screenshot">
+            </div>
             
-                <p class="project-img-1"><strong>Rock, Paper, Scissors:</strong> In this project, I practiced conditionals in JavaScript. My code will break the game into four parts: Get the user’s choice. Get the computer’s choice.Compare the two choices and determine a winner. Then, 4.	Start the program and display the results.</p>
-                <p class="project-img-2"><strong>Team Stats:</strong>Practiced Objects in JavaScript by creating a data structure to maintain and manipulate sports stats!</p>
-           
+            <div class="project-descriptions">
+                    <div class="project-des-1">
+                        <p><strong>Rock, Paper, Scissors:</strong> In this project, I practiced conditionals in JavaScript. My code will break the game into four parts: Get the user’s choice. Get the computer’s choice.Compare the two choices and determine a winner. Then, 4.	Start the program and display the results.</p>
+                    </div>
+                    <div class="project-des-2">
+                        <p><strong>Team Stats:</strong>Practiced Objects in JavaScript by creating a data structure to maintain and manipulate sports stats!</p>
+                    </div>
             </div>
+            </section>
+        
+        
+            <section id="contact-details">
+                <div class="contact-form">
+                    <h2>Contact details</h2>
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required placeholder="Example: Blaize Kenny"><br><br>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required placeholder="blaizekenny@example.com"><br><br>
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h4>Contact me directly</h4>
+                    <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
+                    <p>Phone: <a href="tel:+44234567890">+44 234 567 890</a></p>
+                </div>
 
-        </section>
-       
-       
-        <section id="contact-details">
-            <div class="contact-form">
-            <h2>Contact details</h2>
-            
-            <form>
-                <label for="name">Name:</label><br>
-                <input type="text" id="name" name="name" required placeholder="Example: Blaize Kenny"><br><br>
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email" required placeholder="blaizekenny@example.com"><br><br>
-                <label for="message">Message:</label><br>
-                <textarea id="message" name="message" rows="4" required></textarea><br><br>
-                <input type="submit" value="Submit">
-            </form>
-            </div>
-            <div class="contact-info">
-                <h4>Contact me directly</h4>
-                <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-                <p>Phone: <a href="tel:+44234567890">+44 234 567 890</a></p>
-            </div>
-
-        </section>
-    </main>
-    <footer>
-        <p>© 2025 MyWebsite. All rights reserved.</p>
-    </footer>    
-</body>
+            </section>
+        </main>
+        <footer>
+            <p>© 2025 MyWebsite. All rights reserved.</p>
+        </footer>    
+    </body>
 </html>
