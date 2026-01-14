@@ -12,4 +12,4 @@ I have also used @media to render the website to make it better suited to differ
 resolutions. Alongside this I have used values in %'s instead of px. 
 ***
 This is my github pages link: 
-
+https://blaize9931.github.io/first-assignment-webpage/
